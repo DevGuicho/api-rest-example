@@ -1,7 +1,7 @@
-POST http://localhost:3000/api/post
+POST http://localhost:3001/api/posts
 Content-Type: application/json
 
 {
-  "title": "React life cycle for fools",
+  "title": "React hooks and custom hooks",
   "content": "Lorem ipsum dolot"
 }
