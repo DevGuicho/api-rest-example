@@ -1,6 +1,6 @@
 # SIMPLE API REST SERVICE ARCHITECTURE EXAMPLE
 
-This example showcases a very simple **CRUD** using service architecture, MongoDB, mongoose to handle db requests and [@hapi/boom](https://hapi.dev/module/boom/) to handle errors
+This example showcases a very simple **CRUD** using service architecture, express, MongoDB, mongoose to handle db requests and [@hapi/boom](https://hapi.dev/module/boom/) to handle errors
 
 ## USAGE
 
