@@ -25,6 +25,7 @@ Then set each variable on `.env` :
 - `DB_USER` Is the new user created
 - `DB_PASSWORD` Is the new user password
 - `DB_NAME` Name of the database created
+- `DB_HOST` HOST of the database created example "ip2rv.mongodb.net"
 
 ### Run API
 
