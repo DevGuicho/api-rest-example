@@ -1,7 +1,9 @@
-require('dotenv').config()
+if (process.env.NODE_ENV === 'development') {
+  require('dotenv').config()
+}
 
 const config = {
-  dev: process.env.DEV === 'dev',
+  dev: process.env.NODE_ENV === 'development',
   port: process.env.PORT || 3001,
   dbUser: process.env.DB_USER,
   dbPassword: process.env.DB_PASSWORD,
